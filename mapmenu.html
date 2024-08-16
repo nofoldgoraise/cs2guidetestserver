@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>맵 목차</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    body{
+      margin: 0px;
+    }
+    h1{
+      text-align: center;
+      border-bottom: 2px solid green;
+      background-color: green;
+      margin: 0px;
+    }
+    h2{
+      text-align: center;
+    }
+    ul{
+      list-style-type: none;
+      border-right: 2px solid gray;
+      background-color: gray;
+      width: 150px;
+      margin: 0px;
+      padding-top: 15px;
+    }
+    div{
+      margin-left: 40px;
+    }
+    #list a{
+      color: orange;
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 150px 1fr;
+      margin-left: 0px;
+    }
+    #home{
+      color: orange;
+    }
+  </style>
+</head>
+<body>
+  <h1><a id="home" href="index.html" style="text-decoration: none;">CS2 가이드</a></h1>
+  <div id="grid">
+  <ul id="list">
+    <li>
+      <i class="fa-solid fa-house"></i>
+      <a href="index.html"><b>홈</b></a>
+    </li>
+    <li>
+      <i class="fa-solid fa-map"></i>
+      <a href="mapmenu.html" target="_self"><b>맵 콜아웃</b></a>
+    </li>
+    <li>
+      <i class="fa-solid fa-gun"></i>
+      <a href="weaponmenu.html" target="_self"><b>무기 설명</b></a>
+    </li>
+  </ul>
+      <div>
+        <h2>이곳은 맵 지명들을 볼 수 있는 목차라노.<br>
+        알고싶은 맵의 이름을 클릭하면 상세정보로 이동한다노.</h2>
+        <ol style="list-style: none;">
+          <li>
+            <i class="fa-solid fa-map"></i>
+            <a href="dust2.html" target="_blank"><b>더스트2</b> (DUST2)</a>
+          </li>
+            <img src="images/dust2index.jpg" width="500" alt="dust2">
+          <li>
+            <i class="fa-solid fa-map"></i>
+            <a href="mirage.html" target="_blank"><b>신기루</b> (MIRAGE)</a>
+          </li>
+            <img src="images/mirage.webp" width="500" alt="dust2">
+        </ol>
+      </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>무기 설명</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    body{
+      margin: 0px;
+    }
+    h1{
+      text-align: center;
+      border-bottom: 2px solid green;
+      background-color: green;
+      margin: 0px;
+    }
+    h2{
+      text-align: center;
+    }
+    a{
+      text-decoration: none;
+    }
+    ul{
+      list-style-type: none;
+      border-right: 2px solid gray;
+      width: 150px;
+      margin: 0px;
+      padding-top: 15px;
+      background-color: gray;
+    }
+    .blueborder{
+      border: 3px solid blue;
+      background-color: rgb(0,0,100,0.5);
+    }
+    .redborder{
+      border: 3px solid red;
+      background-color: rgb(100,0,0,0.5);
+    }
+    #home{
+      color:orange;
+    }
+    #list a{
+      color: orange;
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 150px 1fr;
+    }
+  </style>
+</head>
+<body>
+  <h1><a id="home" href="index.html" style="text-decoration: none;">CS2 가이드</a></h1>
+  <div id="grid">
+  <ul id="list">
+    <li>
+      <i class="fa-solid fa-house"></i>
+      <a href="index.html"><b>홈</b></a>
+    </li>
+    <li>
+      <i class="fa-solid fa-map"></i>
+      <a href="mapmenu.html" target="_self"><b>맵 콜아웃</b></a>
+    </li>
+    <li>
+      <i class="fa-solid fa-gun"></i>
+      <a href="weaponmenu.html" target="_self"><b>무기 설명</b></a>
+    </li>
+  </ul>
+    <div>
+    <h2>이곳은 각 무기들의 설명을 볼 수 있는 목차라노.<br>
+    대중적으로 사용되는 무기 위주로 설명한다노.</h2>
+    <h2 style="color: red;">테러리스트 무기 [TR]</h2>
+      <ol style="list-style-type: none; padding-left: 70px;" >
+        <li>
+          <i class="fa-solid fa-gun"></i>
+          <a href="ak47.html" target="_blank"><b style="color: red;">AK-47</b></a>
+        </li>
+          <img src="images/cs2ak47.webp" width="500" alt="cs2ak47" class="redborder">
+        <li>
+          <i class="fa-solid fa-gun"></i>
+          <a href="galil.html" target="_blank"><b style="color: red;">GALIL</b></a>
+        </li>
+          <img src="images/cs2galil.webp" width="500" alt="cs2galil" class="redborder">
+      </ol>
+      <h2 style="color: blue;">대 테러리스트 무기 [CT]</h2>
+      <ol style="list-style-type: none; padding-left: 70px;">
+        <li>
+          <i class="fa-solid fa-gun"></i>
+          <a href="m4a1-s.html" target="_blank"><b style="color: blue;">M4A1-S</b></a>
+        </li>
+          <img src="images/cs2m4a1-s.webp" width="500" alt="cs2m4a1-s" class="blueborder">
+        <li>
+          <i class="fa-solid fa-gun"></i>
+          <a href="m4a4.html" target="_blank"><b style="color: blue;">M4A4</b></a>
+        </li>
+          <img src="images/cs2m4a4.webp" width="500" alt="cs2m4a4" class="blueborder">
+      </ol>
+    </div>
+  </div>
+</body>
+</html>
